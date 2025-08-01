@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <!-- Abstract tech background for hero section -->
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121212" />
+      <stop offset="100%" stop-color="#0A0A0A" />
+    </linearGradient>
+    
+    <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#FFC700" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#FFC700" stop-opacity="0" />
+    </radialGradient>
+    
+    <!-- Filters -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)" />
+  
+  <!-- Grid lines -->
+  <g stroke="#333333" stroke-width="1" opacity="0.3">
+    <!-- Horizontal lines -->
+    <line x1="0" y1="200" x2="1920" y2="200" />
+    <line x1="0" y1="400" x2="1920" y2="400" />
+    <line x1="0" y1="600" x2="1920" y2="600" />
+    <line x1="0" y1="800" x2="1920" y2="800" />
+    <line x1="0" y1="1000" x2="1920" y2="1000" />
+    
+    <!-- Vertical lines -->
+    <line x1="400" y1="0" x2="400" y2="1080" />
+    <line x1="800" y1="0" x2="800" y2="1080" />
+    <line x1="1200" y1="0" x2="1200" y2="1080" />
+    <line x1="1600" y1="0" x2="1600" y2="1080" />
+  </g>
+  
+  <!-- Abstract shapes -->
+  <g opacity="0.8">
+    <!-- Glow effect -->
+    <circle cx="960" cy="540" r="300" fill="url(#glowGradient)" />
+    
+    <!-- Geometric elements -->
+    <polygon points="960,240 1060,390 860,390" fill="#FFC700" opacity="0.1" filter="url(#glow)" />
+    <polygon points="960,840 1060,690 860,690" fill="#FFC700" opacity="0.1" filter="url(#glow)" />
+    <polygon points="660,540 810,640 810,440" fill="#FFC700" opacity="0.1" filter="url(#glow)" />
+    <polygon points="1260,540 1110,640 1110,440" fill="#FFC700" opacity="0.1" filter="url(#glow)" />
+  </g>
+  
+  <!-- Particles -->
+  <g fill="#FFFFFF">
+    <circle cx="200" cy="300" r="2" opacity="0.5" />
+    <circle cx="400" cy="200" r="1" opacity="0.3" />
+    <circle cx="600" cy="400" r="2" opacity="0.4" />
+    <circle cx="800" cy="300" r="1" opacity="0.5" />
+    <circle cx="1000" cy="200" r="2" opacity="0.3" />
+    <circle cx="1200" cy="400" r="1" opacity="0.4" />
+    <circle cx="1400" cy="300" r="2" opacity="0.5" />
+    <circle cx="1600" cy="200" r="1" opacity="0.3" />
+    <circle cx="1800" cy="400" r="2" opacity="0.4" />
+    <circle cx="300" cy="600" r="1" opacity="0.5" />
+    <circle cx="500" cy="700" r="2" opacity="0.3" />
+    <circle cx="700" cy="800" r="1" opacity="0.4" />
+    <circle cx="900" cy="900" r="2" opacity="0.5" />
+    <circle cx="1100" cy="700" r="1" opacity="0.3" />
+    <circle cx="1300" cy="800" r="2" opacity="0.4" />
+    <circle cx="1500" cy="900" r="1" opacity="0.5" />
+    <circle cx="1700" cy="600" r="2" opacity="0.3" />
+  </g>
+  
+  <!-- Accent lines -->
+  <g stroke="#FFC700" stroke-width="2" opacity="0.2">
+    <path d="M0,540 Q480,340 960,540 Q1440,740 1920,540" fill="none" />
+    <path d="M0,340 Q480,540 960,340 Q1440,140 1920,340" fill="none" />
+    <path d="M0,740 Q480,940 960,740 Q1440,540 1920,740" fill="none" />
+  </g>
+</svg>

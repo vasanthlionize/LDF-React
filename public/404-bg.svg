@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <!-- Abstract tech background for 404 page -->
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0A0A" />
+      <stop offset="100%" stop-color="#121212" />
+    </linearGradient>
+    
+    <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#FFC700" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#FFC700" stop-opacity="0" />
+    </radialGradient>
+    
+    <!-- Filters -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#bgGradient)" />
+  
+  <!-- Grid pattern -->
+  <g stroke="#333333" stroke-width="0.5" opacity="0.1">
+    <!-- Horizontal lines -->
+    <line x1="0" y1="100" x2="1200" y2="100" />
+    <line x1="0" y1="200" x2="1200" y2="200" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="0" y1="400" x2="1200" y2="400" />
+    <line x1="0" y1="500" x2="1200" y2="500" />
+    <line x1="0" y1="600" x2="1200" y2="600" />
+    <line x1="0" y1="700" x2="1200" y2="700" />
+    
+    <!-- Vertical lines -->
+    <line x1="100" y1="0" x2="100" y2="800" />
+    <line x1="200" y1="0" x2="200" y2="800" />
+    <line x1="300" y1="0" x2="300" y2="800" />
+    <line x1="400" y1="0" x2="400" y2="800" />
+    <line x1="500" y1="0" x2="500" y2="800" />
+    <line x1="600" y1="0" x2="600" y2="800" />
+    <line x1="700" y1="0" x2="700" y2="800" />
+    <line x1="800" y1="0" x2="800" y2="800" />
+    <line x1="900" y1="0" x2="900" y2="800" />
+    <line x1="1000" y1="0" x2="1000" y2="800" />
+    <line x1="1100" y1="0" x2="1100" y2="800" />
+  </g>
+  
+  <!-- Glitch effect for 404 -->
+  <g filter="url(#glow)">
+    <!-- 4 -->
+    <path d="M400,250 L400,450 M350,350 L450,350" stroke="#FFC700" stroke-width="10" opacity="0.8" />
+    <path d="M390,240 L390,440 M340,340 L440,340" stroke="#FFC700" stroke-width="10" opacity="0.3" />
+    <path d="M410,260 L410,460 M360,360 L460,360" stroke="#FFC700" stroke-width="10" opacity="0.3" />
+    
+    <!-- 0 -->
+    <circle cx="550" cy="350" r="100" stroke="#FFC700" stroke-width="10" fill="none" opacity="0.8" />
+    <circle cx="540" cy="340" r="100" stroke="#FFC700" stroke-width="10" fill="none" opacity="0.3" />
+    <circle cx="560" cy="360" r="100" stroke="#FFC700" stroke-width="10" fill="none" opacity="0.3" />
+    
+    <!-- 4 -->
+    <path d="M700,250 L700,450 M650,350 L750,350" stroke="#FFC700" stroke-width="10" opacity="0.8" />
+    <path d="M690,240 L690,440 M640,340 L740,340" stroke="#FFC700" stroke-width="10" opacity="0.3" />
+    <path d="M710,260 L710,460 M660,360 L760,360" stroke="#FFC700" stroke-width="10" opacity="0.3" />
+  </g>
+  
+  <!-- Broken connection lines -->
+  <g stroke="#FFC700" stroke-width="2" opacity="0.5" stroke-dasharray="10,15">
+    <path d="M200,200 L400,200 L600,400 L800,200 L1000,400" fill="none" />
+    <path d="M200,600 L400,600 L600,400 L800,600 L1000,400" fill="none" />
+  </g>
+  
+  <!-- Glow effect -->
+  <circle cx="600" cy="400" r="250" fill="url(#glowGradient)" />
+  
+  <!-- Error message (abstract) -->
+  <g transform="translate(600, 500)">
+    <line x1="-150" y1="0" x2="150" y2="0" stroke="#FFC700" stroke-width="2" opacity="0.5" />
+    <line x1="-120" y1="20" x2="120" y2="20" stroke="#FFC700" stroke-width="2" opacity="0.3" />
+    <line x1="-100" y1="40" x2="100" y2="40" stroke="#FFC700" stroke-width="2" opacity="0.3" />
+  </g>
+  
+  <!-- Navigation buttons (abstract) -->
+  <g transform="translate(600, 600)">
+    <rect x="-100" y="0" width="200" height="50" rx="25" ry="25" fill="none" stroke="#FFC700" stroke-width="2" opacity="0.5" />
+  </g>
+  
+  <!-- Particles -->
+  <g fill="#FFFFFF">
+    <circle cx="100" cy="100" r="1" opacity="0.5" />
+    <circle cx="300" cy="150" r="1" opacity="0.3" />
+    <circle cx="500" cy="100" r="1" opacity="0.4" />
+    <circle cx="700" cy="150" r="1" opacity="0.5" />
+    <circle cx="900" cy="100" r="1" opacity="0.3" />
+    <circle cx="1100" cy="150" r="1" opacity="0.4" />
+    <circle cx="150" cy="300" r="1" opacity="0.5" />
+    <circle cx="350" cy="350" r="1" opacity="0.3" />
+    <circle cx="550" cy="300" r="1" opacity="0.4" />
+    <circle cx="750" cy="350" r="1" opacity="0.5" />
+    <circle cx="950" cy="300" r="1" opacity="0.3" />
+    <circle cx="1050" cy="350" r="1" opacity="0.4" />
+    <circle cx="200" cy="500" r="1" opacity="0.5" />
+    <circle cx="400" cy="550" r="1" opacity="0.3" />
+    <circle cx="600" cy="500" r="1" opacity="0.4" />
+    <circle cx="800" cy="550" r="1" opacity="0.5" />
+    <circle cx="1000" cy="500" r="1" opacity="0.3" />
+    <circle cx="250" cy="700" r="1" opacity="0.4" />
+    <circle cx="450" cy="750" r="1" opacity="0.5" />
+    <circle cx="650" cy="700" r="1" opacity="0.3" />
+    <circle cx="850" cy="750" r="1" opacity="0.4" />
+    <circle cx="1050" cy="700" r="1" opacity="0.5" />
+  </g>
+</svg>

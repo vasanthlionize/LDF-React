@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <!-- Abstract tech background for services section -->
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0A0A" />
+      <stop offset="100%" stop-color="#121212" />
+    </linearGradient>
+    
+    <!-- Filters -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#bgGradient)" />
+  
+  <!-- Grid pattern -->
+  <g stroke="#333333" stroke-width="0.5" opacity="0.2">
+    <!-- Horizontal lines -->
+    <line x1="0" y1="100" x2="1200" y2="100" />
+    <line x1="0" y1="200" x2="1200" y2="200" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="0" y1="400" x2="1200" y2="400" />
+    <line x1="0" y1="500" x2="1200" y2="500" />
+    <line x1="0" y1="600" x2="1200" y2="600" />
+    <line x1="0" y1="700" x2="1200" y2="700" />
+    
+    <!-- Vertical lines -->
+    <line x1="100" y1="0" x2="100" y2="800" />
+    <line x1="200" y1="0" x2="200" y2="800" />
+    <line x1="300" y1="0" x2="300" y2="800" />
+    <line x1="400" y1="0" x2="400" y2="800" />
+    <line x1="500" y1="0" x2="500" y2="800" />
+    <line x1="600" y1="0" x2="600" y2="800" />
+    <line x1="700" y1="0" x2="700" y2="800" />
+    <line x1="800" y1="0" x2="800" y2="800" />
+    <line x1="900" y1="0" x2="900" y2="800" />
+    <line x1="1000" y1="0" x2="1000" y2="800" />
+    <line x1="1100" y1="0" x2="1100" y2="800" />
+  </g>
+  
+  <!-- Service icons (abstract representations) -->
+  <g>
+    <!-- Digital Marketing -->
+    <g transform="translate(200, 200)">
+      <circle cx="0" cy="0" r="50" fill="#121212" stroke="#FFC700" stroke-width="2" />
+      <path d="M-20,-20 L20,20 M-20,20 L20,-20" stroke="#FFC700" stroke-width="3" fill="none" />
+    </g>
+    
+    <!-- Lead Generation -->
+    <g transform="translate(400, 200)">
+      <circle cx="0" cy="0" r="50" fill="#121212" stroke="#FFC700" stroke-width="2" />
+      <path d="M0,-25 L25,25 L-25,25 Z" stroke="#FFC700" stroke-width="3" fill="none" />
+    </g>
+    
+    <!-- Business Strategy -->
+    <g transform="translate(600, 200)">
+      <circle cx="0" cy="0" r="50" fill="#121212" stroke="#FFC700" stroke-width="2" />
+      <path d="M-25,0 L25,0 M0,-25 L0,25" stroke="#FFC700" stroke-width="3" fill="none" />
+    </g>
+    
+    <!-- Personal Branding -->
+    <g transform="translate(800, 200)">
+      <circle cx="0" cy="0" r="50" fill="#121212" stroke="#FFC700" stroke-width="2" />
+      <circle cx="0" cy="0" r="25" stroke="#FFC700" stroke-width="3" fill="none" />
+    </g>
+    
+    <!-- AI Automations -->
+    <g transform="translate(1000, 200)">
+      <circle cx="0" cy="0" r="50" fill="#121212" stroke="#FFC700" stroke-width="2" />
+      <path d="M-25,-15 L25,-15 M-25,0 L25,0 M-25,15 L25,15" stroke="#FFC700" stroke-width="3" fill="none" />
+    </g>
+    
+    <!-- Website Development -->
+    <g transform="translate(600, 400)">
+      <circle cx="0" cy="0" r="50" fill="#121212" stroke="#FFC700" stroke-width="2" />
+      <path d="M-25,-25 L-25,25 L25,25 L25,-25 Z" stroke="#FFC700" stroke-width="3" fill="none" />
+    </g>
+  </g>
+  
+  <!-- Connecting lines -->
+  <g stroke="#FFC700" stroke-width="1" opacity="0.3">
+    <path d="M200,200 L400,200" fill="none" />
+    <path d="M400,200 L600,200" fill="none" />
+    <path d="M600,200 L800,200" fill="none" />
+    <path d="M800,200 L1000,200" fill="none" />
+    <path d="M600,200 L600,400" fill="none" />
+    <path d="M200,200 L600,400" fill="none" />
+    <path d="M400,200 L600,400" fill="none" />
+    <path d="M800,200 L600,400" fill="none" />
+    <path d="M1000,200 L600,400" fill="none" />
+  </g>
+  
+  <!-- Accent elements -->
+  <g fill="#FFC700" opacity="0.1">
+    <circle cx="200" cy="600" r="100" />
+    <circle cx="1000" cy="600" r="100" />
+  </g>
+  
+  <!-- Particles -->
+  <g fill="#FFFFFF">
+    <circle cx="100" cy="100" r="1" opacity="0.5" />
+    <circle cx="300" cy="150" r="1" opacity="0.3" />
+    <circle cx="500" cy="100" r="1" opacity="0.4" />
+    <circle cx="700" cy="150" r="1" opacity="0.5" />
+    <circle cx="900" cy="100" r="1" opacity="0.3" />
+    <circle cx="1100" cy="150" r="1" opacity="0.4" />
+    <circle cx="150" cy="300" r="1" opacity="0.5" />
+    <circle cx="350" cy="350" r="1" opacity="0.3" />
+    <circle cx="550" cy="300" r="1" opacity="0.4" />
+    <circle cx="750" cy="350" r="1" opacity="0.5" />
+    <circle cx="950" cy="300" r="1" opacity="0.3" />
+    <circle cx="1050" cy="350" r="1" opacity="0.4" />
+    <circle cx="200" cy="500" r="1" opacity="0.5" />
+    <circle cx="400" cy="550" r="1" opacity="0.3" />
+    <circle cx="600" cy="500" r="1" opacity="0.4" />
+    <circle cx="800" cy="550" r="1" opacity="0.5" />
+    <circle cx="1000" cy="500" r="1" opacity="0.3" />
+    <circle cx="250" cy="700" r="1" opacity="0.4" />
+    <circle cx="450" cy="750" r="1" opacity="0.5" />
+    <circle cx="650" cy="700" r="1" opacity="0.3" />
+    <circle cx="850" cy="750" r="1" opacity="0.4" />
+    <circle cx="1050" cy="700" r="1" opacity="0.5" />
+  </g>
+</svg>
